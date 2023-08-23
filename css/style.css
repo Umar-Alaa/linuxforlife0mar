@@ -1,0 +1,114 @@
+@charset "utf-8";
+body {
+    background-image: url(../images/bkgd.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;}
+
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #235457;
+    background-attachment: fixed;
+}
+body header {
+}
+#logo {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+body header nav {
+    min-width: 0px;
+    margin-top: -9px;
+    margin-left: -8px;
+}
+aside {
+    width: 23%;
+    margin-left: 3%;
+    text-align: center;
+    float: left;
+
+    margin-right: 1.5%;
+
+    margin-right: 3%;
+    height: 180px;
+    color: #FFFFFF;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    font-size: x-large;
+    text-shadow: 2px 2px 0px #000000;
+}
+article {
+    float: right;
+    margin-left: 17%;
+    padding-left: 22px;
+    padding-top: 6px;
+    margin-right: 10%;
+    width: 40%;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,0.40) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,0.40) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,0.40) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,0.40) 100%);
+    border-top-right-radius: 27px;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: chartreuse;
+}
+
+input, textarea, text {
+	width: 100%
+}
+footer {
+    position: fixed;
+    bottom: 0px;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,1.00) 100%);
+    width: 100%;
+    left: 0px;
+    text-align: center;
+}
+#vid {
+    margin-bottom: 5%;
+}
+h5 {
+    color: white;
+    width: 100%;
+    text-shadow: 2px 4px #000000;
+}
+form {
+    top: 50%;
+}
+
+
+
+
+
+@media (max-width:650px){
+body {
+    background-image:none;
+}
+#aboutArt {
+    margin-bottom: 20%;
+}
+
+aside {
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+article {
+    width: 80%;
+    border-radius: 40px;
+    left: 20%;
+    margin-bottom: 20%;
+}
+
+
+
+
+
+}
